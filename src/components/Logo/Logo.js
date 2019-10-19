@@ -17,6 +17,7 @@ const Logo = () => {
             alt="logo"
             height="150"
             width="150"
+            style={{}}
           />
         </div>
       </Tilt>
