@@ -12,7 +12,12 @@ const Logo = () => {
         style={{ height: 150, width: 150 }}
       >
         <div className="Tilt-inner">
-          <img src={logo_image} alt="logo" height="150" width="150"/>
+          <img
+            src={logo_image}
+            alt="logo"
+            height="150"
+            width="150"
+          />
         </div>
       </Tilt>
     </div>
