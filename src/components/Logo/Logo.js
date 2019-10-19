@@ -2,7 +2,8 @@ import React from 'react';
 
 const Logo = () => {
   return (
-    true
+    <div className='ma4 mt0'>
+    </div>
   );
 };
 
