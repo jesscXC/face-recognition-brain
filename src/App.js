@@ -10,9 +10,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Logo />
-      {/*
       <Rank />
-      */}
       <ImageLinkForm />
       {/*
       <FaceRecognition />
