@@ -18,19 +18,21 @@ const particlesParams = {
   }
 };
 
-function App() {
-  return (
-    <div className="App">
-      <Particles className="particles" params={particlesParams} />
-      <Navigation />
-      <Logo />
-      <Rank />
-      <ImageLinkForm />
-      {/*
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Particles className="particles" params={particlesParams} />
+        <Navigation />
+        <Logo />
+        <Rank />
+        <ImageLinkForm />
+        {/*
       <FaceRecognition />
       */}
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
